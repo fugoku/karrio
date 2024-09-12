@@ -2,6 +2,6 @@
   "name": "api",
   "version": "1.0.0",
   "scripts": {
-    "dev": "cd ../..; ./bin/start-server"
+    "dev": "node init && cd ../..; ./bin/start-server"
   }
 }
