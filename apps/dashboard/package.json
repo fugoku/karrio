@@ -2,13 +2,13 @@
   "name": "@karrio/dashboard",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint",
     "gen:rest": "cd ..; ./bin/generate-rest-types",
     "gen:graph": "cd ..; ./bin/generate-graphql-types",
-    "build:image": "cd ..; ./bin/build-dashboard-image"
+    "build:image": "node init && cd ..; ./bin/build-dashboard-image"
   },
   "dependencies": {
     "@karrio/core": "*",

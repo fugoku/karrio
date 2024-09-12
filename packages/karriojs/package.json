@@ -4,7 +4,7 @@
   "description": "Karrio Javascript client for bowser apps",
   "main": "karrio.js",
   "scripts": {
-    "build": "cd ../..; ./bin/server build:js"
+    "build": "node init && cd ../..; ./bin/server build:js"
   },
   "keywords": [
     "shipping",
